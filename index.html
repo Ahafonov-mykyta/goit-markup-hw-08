@@ -390,18 +390,24 @@
         <h2>Оставьте свои данные, мы вам перезвоним</h2>
         <form class="main-form">
           <div class="form-field">
-            <label for="name" class="form-text"> Имя</label>
+            <label for="name" class="form-text"> Имя </label>
             <input type="text" name="name" id="name" />
+            <svg class="icon-form">
+              <use href="./images/icons.svg#icon-person"><svg> 
           </div>
 
           <div class="form-field">
             <label for="tel" class="form-text"> Телефон</label>
             <input type="tel" name="tel" id="tel" />
+            <svg class="icon-form">
+              <use href="./images/icons.svg#icon-tell"><svg> 
           </div>
 
           <div class="form-field">
             <label for="email" class="form-text"> Почта</label>
             <input type="email" name="email" id="email" />
+            <svg class="icon-form">
+              <use href="./images/icons.svg#icon-email"><svg> 
           </div>
 
           <div class="form-field">
@@ -414,13 +420,14 @@
             ></textarea>
           </div>
 
-          <div class="checkbox">
-            <input type="checkbox" name="rights" id="rights" />
-            <label for="rights">
-              Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label
-            >
+          <div class="checkbox-field">
+            <label  class="checkbox-label">
+              <input class="checkbox" type="checkbox" name="rights"  />
+              <span class="checkbox-icon"><svg class="icon-checked">
+                <use href="./images/icons.svg#icon-checked"><svg> </span>
+              Соглашаюсь с рассылкой и принимаю &nbsp <a href="">Условия договора</a></label>
           </div>
-
+          
           <button type="submit" class="button-hero">Отправить</button>
         </form>
       </div>
