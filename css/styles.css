@@ -874,8 +874,8 @@ color: #757575;
 
 .checkbox {
     -webkit-appearance:none;
-       -moz-appearance:none;
-            appearance:none;
+    -moz-appearance:none;
+    appearance:none;
     position: absolute;
 }
 
