@@ -1,0 +1,36 @@
+.section-about{
+    padding-top: 0px; 
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about__thumb{
+    position:relative;
+}
+
+.about__title{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__article{
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--white);
+   
+}
