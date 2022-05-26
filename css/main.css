@@ -108,7 +108,7 @@ img {
   background: #2196F3;
   border-radius: 2px;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
 }
 
@@ -180,6 +180,7 @@ img {
 
 .header {
   background: var(--white);
+  border-bottom: 1px solid #ECECEC;
 }
 
 .main-button {
