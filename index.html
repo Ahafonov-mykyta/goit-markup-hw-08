@@ -20,7 +20,7 @@
   </head>
   <body>
     <!-- Хедер -->
-    <header class="header">
+     <!-- <header class="header"> 
       <div class="container main-nav">
         <nav class="nav">
           <a href="./index.html" class="logo">Web<span class="logo-dark">Studio</span></a>
@@ -48,23 +48,23 @@
           </li>
         </ul>
       </div>
-    </header>
+    </header>  -->
 
     <main>
-      <!-- Секция герой -->
-      <section class="section-hero section">
+      <!-- Секция герой --> 
+      <section class="section-hero section"> 
         <div class="container">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <button data-modal-open type="button" class="main-button">Заказать услугу</button>
         </div>
-      </section>
+      </section> -->
       <!-- Преимущества -->
-      <section class="section">
+        <section class="section">  
         <div class="container">
           <h2 hidden>Преимущества</h2>
 
           <ul class="benefits">
-            <li>
+            <li class="benefits__item">
               <div class="benefits__container">
                 <svg class="benefits__icon">
                   <use href="./images/icons.svg#antenna"></use>
@@ -76,7 +76,7 @@
               </p >
             </li>
 
-            <li>
+            <li class="benefits__item">
               <div class="benefits__container">
                 <svg class="benefits__icon">
                   <use href="./images/icons.svg#icon-clock"></use>
@@ -88,7 +88,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="benefits__item">
               <div class="benefits__container">
                 <svg class="benefits__icon">
                   <use href="./images/icons.svg#icon-diagram"></use>
@@ -100,7 +100,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="benefits__item">
               <div class="benefits__container">
                 <svg class="benefits__icon">
                   <use href="./images/icons.svg#icon-astronaut"></use>
@@ -111,7 +111,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section>  -->
       <!-- Чем занимаемся -->
       <section class="section section-about">
         <div class="container">
@@ -139,9 +139,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- Команда -->
-      <section class="section-team section">
+       <section class="section-team section">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
           <ul class="team-cards">
@@ -271,9 +271,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->  -->
 
-      <section class="section">
+      <section class="section"> 
         <div class="container">
           <h2 class="section__title">Постоянные клиенты</h2>
           <ul class="clients">
@@ -315,15 +315,17 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- футер -->
-    <footer id="footer" class="footer-section">
+     <footer id="footer" class="footer-section">  
       <div class="container">
-        <div>
+        <div class="row">
+        <div class="adress__container">
           <a href="./index.html" class="logo logo__footer">Web<span class="logo-light">Studio</span></a>
 
           <address>
+            
             <ul class="address">
               <li class="address__item" >
                 <a  class="adress__geo" href="./index.html">г. Киев, пр-т Леси Украинки, 26</a>
@@ -365,10 +367,12 @@
               ></a>
             </li>
           </ul>
+          </div>
         </div>
+       
         <form class="footer-form">
           <p class="footer__title">Подпишитесь на рассылку</p>
-          <label for="">
+          <label >
             <input class="footer-form__input" type="email" name="email" placeholder="E-mail" />
             <button type="submit" class="main-button main_button-footer">
               Подписаться
@@ -378,8 +382,9 @@
             </button>
           </label>
         </form>
+     
       </div>
-    </footer>
+    </footer> 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button data-modal-close class="modal__btn">

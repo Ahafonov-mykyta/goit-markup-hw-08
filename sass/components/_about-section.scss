@@ -1,10 +1,16 @@
 .section-about{
-    padding-top: 0px; 
+    display: none;
+        @media screen and (min-width: 1200px){
+            display: block;
+            padding-top: 0px; 
+        }
 }
 
 .about{
-    display: flex;
-    justify-content: space-around;
+    @media screen and (min-width: 1200px){
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 .about__thumb{
@@ -12,7 +18,8 @@
 }
 
 .about__title{
-    position: absolute;
+    @media screen and (min-width: 1200px){
+        position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -21,16 +28,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    }
+    
 }
 
 .about__article{
-    font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-text-align: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    @media screen and (min-width: 1200px){
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 
-color: var(--white);
-   
+        color: var(--white); 
+    }
+    
 }
