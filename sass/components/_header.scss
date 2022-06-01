@@ -155,7 +155,7 @@ text-align: center;
   border: none;
   margin-left: auto;
   background-color: transparent;
-  z-index: 2;
+  z-index: 1;
 
   @media screen and (min-width: 768px){
     display: none;
@@ -186,7 +186,7 @@ display: block;
     left: 0;
     width: 100%;
     padding: 48px 40px;
-    z-index: 1;
+   
     background-color: #fff;
     
 }
