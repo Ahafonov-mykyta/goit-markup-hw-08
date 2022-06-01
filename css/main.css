@@ -319,7 +319,6 @@ img {
 .nav-menu.is-open {
   display: block;
   position: fixed;
-  overflow-y: scroll;
   height: 100%;
 }
 
