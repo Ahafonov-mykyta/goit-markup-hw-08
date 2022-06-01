@@ -306,7 +306,6 @@ img {
 
 .icon-close {
   display: none;
-  fill: red;
 }
 
 .menu-btn.is-open .icon-close {
@@ -315,6 +314,14 @@ img {
 
 .menu-btn.is-open .icon-menu {
   display: none;
+}
+
+.menu-btn.is-open {
+  position: fixed;
+}
+
+.menu-btn.is-open body {
+  overflow: scroll;
 }
 
 .nav-menu {
@@ -344,6 +351,10 @@ img {
   justify-content: space-between;
   overflow: hidden;
   z-index: 3;
+}
+
+.nav-menu.is-open body {
+  overflow: hidden;
 }
 
 .nav-menu__item:not(:last-child) {
