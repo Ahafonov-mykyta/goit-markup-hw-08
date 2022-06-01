@@ -161,9 +161,14 @@ text-align: center;
     display: none;
 }
 
+    &:hover .icon-close,
+    &:focus .icon-close{
+      fill: var(--acent-color)
+    }
 }
 .icon-close {
 display: none;
+fill: red;
 }
 
 .menu-btn.is-open .icon-close  {
@@ -195,6 +200,7 @@ display: block;
   display: block;
   position: fixed;
   height: 100%;
+  overflow-y: scroll;
 }
 
 .nav-menu__list{

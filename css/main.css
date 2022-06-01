@@ -287,8 +287,14 @@ img {
   }
 }
 
+.menu-btn:hover .icon-close,
+.menu-btn:focus .icon-close {
+  fill: var(--acent-color);
+}
+
 .icon-close {
   display: none;
+  fill: red;
 }
 
 .menu-btn.is-open .icon-close {
@@ -320,6 +326,7 @@ img {
   display: block;
   position: fixed;
   height: 100%;
+  overflow-y: scroll;
 }
 
 .nav-menu__list {
@@ -1120,7 +1127,7 @@ img {
 .portfolio-border {
   border: 1px solid #EEEEEE;
   border-top: 0;
-  padding: 20px 24px 20px 24px;
+  padding: 20px 0px 20px 24px;
 }
 
 .portfolio > li {
