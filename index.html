@@ -20,7 +20,7 @@
   </head>
   <body>
     <!-- Хедер -->
-     <!-- <header class="header"> 
+       <!-- <header class="header"> 
       <div class="container main-nav">
         <nav class="nav">
           <a href="./index.html" class="logo">Web<span class="logo-dark">Studio</span></a>
@@ -48,11 +48,11 @@
           </li>
         </ul>
       </div>
-    </header>  -->
+    </header> -->
 
     <main>
       <!-- Секция герой --> 
-      <section class="section-hero section"> 
+      <section class="section-hero section "> 
         <div class="container">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <button data-modal-open type="button" class="main-button">Заказать услугу</button>
@@ -119,7 +119,13 @@
           <ul class="about">
             <li>
               <div class="about__thumb">
-                <img src="./images/what-we-do-section/img.jpg" alt="Программирование" width="370" />
+                <img
+                src="./images/works1-370.jpg"
+                srcset="./images/works1-370.jpg 1x, ./images/works1-740.jpg 2x"
+                alt="человек пишет код"
+                width="370"
+                height="294"
+              />
                 <div class="about__title">
                   <p class="about__article">Десктопные приложения</p>
                 </div>
@@ -127,13 +133,25 @@
             </li>
             <li>
               <div class="about__thumb">
-                <img src="./images/what-we-do-section/img-1.jpg" alt="Проектирование" width="370" />
+                <img
+                src="./images/works2-370.jpg"
+                srcset="./images/works2-370.jpg 1x, ./images/works2-740.jpg 2x"
+                alt="адаптианя верстка"
+                width="370"
+                height="294"
+              />
                 <div class="about__title"><p class="about__article">Мобильные приложения</p></div>
               </div>
             </li>
             <li>
               <div class="about__thumb">
-                <img src="./images/what-we-do-section/img-2.jpg" alt="Дизайн" width="370" />
+                <img
+                src="./images/works3-370.jpg"
+                srcset="./images/works3-370.jpg 1x, ./images/works3-740.jpg 2x"
+                alt="выберает цвета на планшете"
+                width="370"
+                height="294"
+              />
                 <div class="about__title"><p class="about__article">Дизайнерские решения</p></div>
               </div>
             </li>
@@ -146,7 +164,21 @@
           <h2 class="section__title">Наша команда</h2>
           <ul class="team-cards">
             <li class="card">
-              <img src="./images/team-section/img.jpg" alt="Игорь Демьяненко" width="270" />
+              <picture>
+                <source
+                  srcset="./images/img278.jpg 1x, ./images/img278.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/employee1-354.jpg 1x, ./images/employee1-708.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/employee1-450.jpg 1x, ./images/employee1-900.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/img278.jpg" alt="фото дизайнера" />
+              </picture>
               <h3 class="card-title">Игорь Демьяненко</h3>
               <p class="card-article">Product Designer</p>
               <ul class="social-list">
@@ -177,7 +209,21 @@
               </ul>
             </li>
             <li class="card">
-              <img src="./images/team-section/img-1.jpg" alt="Ольга Репина" width="270" />
+              <picture>
+                <source
+                  srcset="./images/employee2-270.jpg 1x, ./images/employee2-540.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/employee2-354.jpg 1x, ./images/employee2-708.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/employee2-450.jpg 1x, ./images/employee2-900.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/employee2-270.jpg" alt="фото разработчика" />
+              </picture>
               <h3 class="card-title">Ольга Репина</h3>
               <p class="card-article">Frontend Developer</p>
               <ul class="social-list">
@@ -208,7 +254,21 @@
               </ul>
             </li>
             <li class="card">
-              <img src="./images/team-section/img-2.jpg" alt="Николай Тарасов" width="270" />
+              <picture>
+                <source
+                  srcset="./images/employee3-270.jpg 1x, ./images/employee3-540.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/employee3-354.jpg 1x, ./images/employee3-708.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/employee3-450.jpg 1x, ./images/employee3-900.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/employee3-270.jpg" alt="фото маркетолог" />
+              </picture>
               <h3 class="card-title">Николай Тарасов</h3>
               <p class="card-article">Marketing</p>
               <ul class="social-list">
@@ -239,7 +299,21 @@
               </ul>
             </li>
             <li class="card">
-              <img src="./images/team-section/img-3.jpg" alt="Михаил Ермаков" width="270" />
+              <picture>
+                <source
+                  srcset="./images/employee4-270.jpg 1x, ./images/employee4-540.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/employee4-354.jpg 1x, ./images/employee4-708.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/employee4-450.jpg 1x, ./images/employee4-900.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/employee4-270.jpg" alt="фото дизайнер" />
+              </picture>
               <h3 class="card-title">Михаил Ермаков</h3>
               <p class="card-article">UI Designer</p>
               <ul class="social-list">
@@ -439,5 +513,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

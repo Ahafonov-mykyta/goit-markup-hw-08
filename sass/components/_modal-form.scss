@@ -1,3 +1,11 @@
+.main-form{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
 .form-field{
     margin-bottom: 10px;
     position: relative;
@@ -49,7 +57,7 @@ color: #757575;
 }
 
 .main-button-form{
-    margin-bottom: 40px;
+    margin-bottom: 0;
 }
 
 
@@ -76,12 +84,17 @@ color: #757575;
 }
 
 .checkbox__label{
-    font-size: 14px;
-line-height: 1.71;
+    font-size: 12px;
+line-height: 0.9;
 letter-spacing: 0.03em;
 color: #757575;
 display: flex;
     align-items: center;
+
+    @media screen and (min-width: 1200px){
+        font-size: 14px;
+        line-height: 1.71;
+}
 }
 
 

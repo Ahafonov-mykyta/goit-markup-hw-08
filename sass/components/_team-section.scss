@@ -60,5 +60,10 @@
 }
 
 .team-cards > .card > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.team-cards > .card > picture {
     width: 100%;
 }

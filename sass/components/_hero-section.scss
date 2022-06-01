@@ -5,11 +5,11 @@
     background: #C4C4C4;;
     padding-top: 118px;
     padding-bottom: 118px;
-    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)), url('../images/hero-section/hero-bg.jpg');
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)) ,url(../images/header-img-480.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    box-sizing: border-box;
 
     @media screen and (min-width: 1200px){
         padding-top: 200px;
@@ -34,3 +34,60 @@
             max-width:696px;
     }
 }
+
+.overlay {
+    max-width: 100%;
+   
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/header-img-480.jpg);
+    background-position: center; /* при сужении вьюпорта картинка остаюется по центру*/
+    background-size: 480px 400px;
+  }
+  /* 2x screens, retina, 960x800 image */
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+        .section-hero {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/header-img-960.jpg);
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .section-hero {
+        max-width: 100%;
+      
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/header-img-768.jpg);
+      background-position: center; /* при сужении вьюпорта картинка остаюется по центру*/
+      background-size: cover;
+    }
+    /* 2x screens, retina, 1532x800 image */
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+        .section-hero{
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+          url(../images/header-img-1532.jpg);
+      }
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .section-hero{
+      max-width: 100%;
+     
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/header-img-1600.jpg);
+      background-position: center; /* при сужении вьюпорта картинка остаюется по центру*/
+      background-size: cover;
+    }
+    /* 2x screens, retina, 3200x1200 image */
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+        .section-hero {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+          url(../images/header-img-3200.jpg);
+      }
+    }
+  }
