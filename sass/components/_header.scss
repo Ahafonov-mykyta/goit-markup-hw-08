@@ -196,8 +196,9 @@ display: block;
     left: 0;
     width: 100%;
     padding: 48px 40px;
-   
+    height: 100%;
     background-color: #fff;
+    
     
 }
 .main-nav .nav .nav-menu{
@@ -209,13 +210,16 @@ display: block;
 .nav-menu.is-open {
   display: block;
   position: fixed;
-
   overflow-y: scroll;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between; 
+  overflow:hidden;
 }
 
 .nav-menu__list{
-  margin-bottom: 302px;
+  
 }
 .nav-menu__item:not(:last-child){
   margin-bottom: 32px
